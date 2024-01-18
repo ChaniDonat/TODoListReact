@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Item } from './Item';
 import config from './config.default';
 
-const apiUrl = config.apiUrl;
+const apiUrl = process.env.REACT_APP_API_URL
 console.log(process.env.API_URL);
 
 
